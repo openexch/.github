@@ -8,10 +8,12 @@ body:
       label: Component
       description: Which part of the system would this affect?
       options:
-        - match (matching engine / cluster)
-        - oms (order management / risk / ledger)
-        - admin (admin gateway)
-        - trading-ui (web UI)
+        - match (matching engine cluster)
+        - assets (order and ledger core cluster)
+        - cluster-kit (shared cluster machinery)
+        - cluster-tools (C++ client, forwarder, settlement bridge)
+        - tools (probe and test tooling)
+        - v0.5 stack (oms, admin, trading-ui)
         - cross-cutting / unsure
     validations:
       required: true

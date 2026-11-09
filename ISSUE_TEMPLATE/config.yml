@@ -1,1 +1,8 @@
 blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://openexchange.dev/docs
+    about: User documentation for Open Exchange.
+  - name: Security report
+    url: https://github.com/openexch/.github/blob/main/SECURITY.md
+    about: Report vulnerabilities privately, not as public issues.
