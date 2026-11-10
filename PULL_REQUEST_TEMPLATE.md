@@ -5,7 +5,7 @@
 ## Component(s) touched
 
 - [ ] `match`: matching engine cluster
-- [ ] `assets`: order and ledger core cluster
+- [ ] `core`: order and ledger core cluster
 - [ ] `cluster-kit`: shared cluster machinery
 - [ ] `cluster-tools`: C++ client, forwarder, settlement bridge, projectors
 - [ ] `tools`: probe and test tooling

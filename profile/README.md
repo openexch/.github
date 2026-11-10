@@ -17,7 +17,7 @@ These five repositories are released together under one version.
 | Repo | Language | Role |
 | ---- | -------- | ---- |
 | [`match`](https://github.com/openexch/match) | Java 21, Aeron Cluster | Matching engine on a Raft-replicated cluster |
-| [`assets`](https://github.com/openexch/assets) | Java 21, Aeron Cluster | Order and ledger core: order lifecycle, risk, holds and the ledger in one replicated cluster |
+| [`core`](https://github.com/openexch/core) | Java 21, Aeron Cluster | Order and ledger core: order lifecycle, risk, holds and the ledger in one replicated cluster |
 | [`cluster-kit`](https://github.com/openexch/cluster-kit) | Java 21 | Cluster machinery shared by both engines: snapshot bundles, staging archives, log housekeeping |
 | [`cluster-tools`](https://github.com/openexch/cluster-tools) | C++20 | Cluster client, matching engine forwarder and settlement bridge |
 | [`tools`](https://github.com/openexch/tools) | mixed | Probe and test tooling |
