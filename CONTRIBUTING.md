@@ -10,7 +10,7 @@ Thanks for your interest. This guide applies to every repository in the organiza
 
 ## Design constraints
 
-The engines (`match`, `assets`) are replicated state machines on Aeron Cluster. Changes inside the replicated path must keep these properties:
+The engines (`match`, `core`) are replicated state machines on Aeron Cluster. Changes inside the replicated path must keep these properties:
 
 - **Determinism.** The same input log produces identical state on every node. No wall-clock reads, no randomness and no iteration over unordered collections inside the replicated path.
 - **State compatibility.** Changes to snapshot format, log replay or wire schemas must say how existing state is handled.

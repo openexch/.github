@@ -9,7 +9,7 @@ body:
       description: Which part of the system would this affect?
       options:
         - match (matching engine cluster)
-        - assets (order and ledger core cluster)
+        - core (order and ledger core cluster)
         - cluster-kit (shared cluster machinery)
         - cluster-tools (C++ client, forwarder, settlement bridge)
         - tools (probe and test tooling)
